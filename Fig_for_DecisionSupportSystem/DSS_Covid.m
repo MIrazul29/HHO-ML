@@ -56,7 +56,7 @@ subplot(2,1,2)
 plot(score1,'-b', 'LineWidth',2)
 hold on 
 plot(d(1:length(score1)),'--m', 'LineWidth',1)
-legend('Probability of affecting Asthma ', 'Threshold')
+legend('Probability of affecting  COVID', 'Threshold')
 ylim([-0.2 1.2])
  xlim([1 260])
 
